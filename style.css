@@ -1,0 +1,84 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Basic styling for the header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Style the main content area */
+
+main {
+    /* max-width: 800px; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to left, #10c6e6, #10c6e6dc, #7fe0f1);
+}
+
+
+/* Style the income and expenditure sections */
+
+section {
+    margin-bottom: 20px;
+}
+
+
+/* Style the transaction lists */
+
+#income-list,
+#expenditure-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+/* Style the total income and expenditure */
+
+#income-total,
+#expenditure-total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Style the footer and the form */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+select,
+button {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
